@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/portfolioitems",
+      "handler": "portfolioitem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/portfolioitems/count",
+      "handler": "portfolioitem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/portfolioitems/:id",
+      "handler": "portfolioitem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/portfolioitems",
+      "handler": "portfolioitem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/portfolioitems/:id",
+      "handler": "portfolioitem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/portfolioitems/:id",
+      "handler": "portfolioitem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
