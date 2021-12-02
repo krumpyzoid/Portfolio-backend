@@ -21,18 +21,6 @@
     "description": {
       "type": "text"
     },
-    "preview": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "carousel": {
       "collection": "file",
       "via": "related",
@@ -55,6 +43,9 @@
       "type": "text"
     },
     "website": {
+      "type": "string"
+    },
+    "imgurl": {
       "type": "string"
     }
   }
